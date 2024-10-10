@@ -1,0 +1,36 @@
+magic
+tech c35b4
+timestamp 1728568843
+<< polysilicon >>
+rect 22 166 29 190
+rect 51 186 58 190
+rect 51 166 58 170
+rect 86 166 93 170
+rect 115 166 122 190
+rect 150 166 157 170
+rect 179 166 186 190
+<< polycontact >>
+rect 47 170 63 186
+rect 82 170 98 186
+rect 146 170 162 186
+<< metal1 >>
+rect 63 174 82 184
+rect 98 174 146 184
+use inv  inv_0
+timestamp 1727966508
+transform 1 0 0 0 1 0
+box 0 0 64 166
+use inv  inv_1
+timestamp 1727966508
+transform 1 0 64 0 1 0
+box 0 0 64 166
+use inv  inv_2
+timestamp 1727966508
+transform 1 0 128 0 1 0
+box 0 0 64 166
+<< labels >>
+rlabel polysilicon 22 190 29 190 1 in
+rlabel polysilicon 51 190 58 190 1 out
+rlabel polysilicon 115 190 122 190 1 n1
+rlabel polysilicon 179 190 186 190 1 n2
+<< end >>
