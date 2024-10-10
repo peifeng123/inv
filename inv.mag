@@ -1,0 +1,55 @@
+magic
+tech c35b4
+timestamp 1727966508
+<< nwell >>
+rect 0 73 64 166
+<< polysilicon >>
+rect 22 132 29 166
+rect 22 48 29 96
+rect 51 81 58 166
+rect 22 0 29 34
+rect 51 0 58 65
+<< ndiffusion >>
+rect 18 34 22 48
+rect 29 34 33 48
+<< pdiffusion >>
+rect 18 96 22 132
+rect 29 96 33 132
+<< ntransistor >>
+rect 22 34 29 48
+<< ptransistor >>
+rect 22 96 29 132
+<< polycontact >>
+rect 42 65 58 81
+<< ndiffcontact >>
+rect 4 34 18 48
+rect 33 34 47 48
+<< pdiffcontact >>
+rect 4 96 18 132
+rect 33 96 47 132
+<< psubstratetap >>
+rect 33 5 47 19
+<< nsubstratetap >>
+rect 33 147 47 161
+<< metal1 >>
+rect 0 147 33 161
+rect 47 147 64 161
+rect 0 141 64 147
+rect 4 132 18 141
+rect 35 81 45 96
+rect 35 65 42 81
+rect 35 48 45 65
+rect 4 25 18 34
+rect 0 19 64 25
+rect 0 5 33 19
+rect 47 5 64 19
+<< labels >>
+rlabel metal1 0 141 0 161 3 Vdd!
+rlabel metal1 0 5 0 25 3 GND!
+rlabel metal1 64 5 64 25 7 GND!
+rlabel polysilicon 22 166 29 166 5 in
+rlabel polysilicon 51 166 58 166 5 out
+rlabel polysilicon 22 0 29 0 1 in
+rlabel polysilicon 51 0 58 0 1 out
+rlabel metal1 64 141 64 161 7 Vdd!
+<< end >>
